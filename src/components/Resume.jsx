@@ -19,8 +19,8 @@ const Resume = () => {
           </p>
 
           <a
-            href="/resume.pdf"
-            download="Resume_Placeholder.pdf"
+            href="/Users/rehan/Desktop/portfolio/public/resume.pdf"
+            download="Resume.pdf"
             className="btn btn-primary"
             style={{ position: 'relative', zIndex: 2 }}
           >

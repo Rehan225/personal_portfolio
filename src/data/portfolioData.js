@@ -28,6 +28,23 @@ const portfolioData = {
     ]
   },
 
+  experience: [
+    {
+      id: 1,
+      role: "Machine Learning Intern",
+      company: "Hyperstellar Technology",
+      period: "Internship",
+      description: "Worked on Machine Learning algorithms, dataset preparation, data preprocessing, and exploratory data analysis to build predictive models."
+    },
+    {
+      id: 2,
+      role: "Web Scraping & Data Intern",
+      company: "Dezignolics Technologies",
+      period: "Internship",
+      description: "Performed web scraping using Python and Pandas to extract structured web data and automated database ingestion pipelines into SQL databases."
+    }
+  ],
+
   skills: {
     languages: ["Python", "JavaScript (ES6+)", "Java", "C / C++", "SQL"],
     machineLearning: ["Machine Learning Basics", "GenAI Fundamentals", "NumPy", "Pandas", "Scikit-Learn"],
@@ -39,6 +56,28 @@ const portfolioData = {
     {
       id: 1,
       number: "01",
+      category: "DEVOPS & CLOUD",
+      title: "Project Chronos",
+      description: "A cloud-native DevOps platform for financial market risk intelligence. Automates infrastructure deployment, scaling, and monitoring using AWS, Terraform, Docker, Kubernetes, and Jenkins with Prometheus & Grafana observability.",
+      technologies: ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "Prometheus", "Grafana"],
+      github: "https://github.com/Rehan225/project-chronos-devops",
+      liveDemo: "",
+      type: "Featured Project"
+    },
+    {
+      id: 2,
+      number: "02",
+      category: "AI & NLP",
+      title: "MeetAssist: AI Meeting Summarizer",
+      description: "AI-powered meeting intelligence platform that converts audio recordings into transcripts, summaries, decisions, and action items using Whisper and LLMs to automate meeting documentation.",
+      technologies: ["React", "JavaScript", "Python", "Whisper AI", "LLM APIs"],
+      github: "https://github.com/Rehan225/ai-meeting-dashboard",
+      liveDemo: "",
+      type: "Featured Project"
+    },
+    {
+      id: 3,
+      number: "03",
       category: "WEB DEVELOPMENT",
       title: "Personal Developer Portfolio",
       description: "A modern, responsive personal portfolio website built with React and Vite. Features a custom color palette, modular component structure, centralized data system, and accessible layout.",
@@ -46,28 +85,6 @@ const portfolioData = {
       github: "https://github.com/Rehan225/personal_portfolio",
       liveDemo: "",
       type: "Featured Project"
-    },
-    {
-      id: 2,
-      number: "02",
-      category: "REACT APPLICATION",
-      title: "MeetAssist: Ai Based Meets Notes Summarizer",
-      description: "MeetAssist is an AI-powered meeting intelligence platform that converts audio recordings into transcripts, summaries, decisions, and action items. It uses Whisper, LLMs, and search indexing to automate meeting documentation, improve knowledge retrieval, and save employees time.",
-      technologies: ["React", "JavaScript", "Local Storage", "CSS Modules"],
-      github: "https://github.com/Rehan225/ai-meeting-dashboard",
-      liveDemo: "",
-      type: "Coursework Project"
-    },
-    {
-      id: 3,
-      number: "03",
-      category: "ACADEMIC / MINI PROJECT",
-      title: "Project Chronos",
-      description: "Project Chronos is a cloud-native DevOps platform for financial market risk intelligence, automating infrastructure, deployment, scaling, and monitoring using AWS, Terraform, Docker, Kubernetes, and Jenkins.Prometheus and Grafana provide real-time observability, while Kubernetes enables self-healing and horizontal scaling, improving reliability, scalability, and deployment efficiency.",
-      technologies: ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "Prometheus", "Grafana"],
-      github: "https://github.com/Rehan225/project-chronos-devops",
-      liveDemo: "",
-      type: "Coursework Project"
     }
   ],
 
