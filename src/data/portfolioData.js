@@ -43,7 +43,7 @@ const portfolioData = {
       title: "Personal Developer Portfolio",
       description: "A modern, responsive personal portfolio website built with React and Vite. Features a custom color palette, modular component structure, centralized data system, and accessible layout.",
       technologies: ["React", "Vite", "JavaScript", "CSS3"],
-      github: "https://github.com/Rehan225",
+      github: "https://github.com/Rehan225/personal_portfolio",
       liveDemo: "",
       type: "Featured Project"
     },
